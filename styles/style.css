@@ -1,0 +1,45 @@
+.main-text {
+  color: #fff;
+  font: 15px/34px "Roboto Condensed",sans-serif;
+  font-weight: bold;
+}
+
+.top-header {
+  background-color: #f72210;
+  padding: 16px 10px 15px;
+  height: 95px;
+  position: relative;
+}
+
+.weather-loc {
+  margin-bottom: 2px;
+}
+
+.moon {
+  width: 24px;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.logo {
+  height: 70px;
+  width: 400px;
+  bottom: 5px;
+  position: relative;
+}
+
+.top-right-header {
+  position: relative;
+  left: 110px;
+  top: 30px;
+}
+
+.subscribe {
+  color: #f72210;
+  background-color: #fff;
+  padding: 6px 10px;
+  font-size: 18px;
+  margin-left: 6px;
+}
