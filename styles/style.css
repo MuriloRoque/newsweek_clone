@@ -203,7 +203,7 @@ main {
   color: #000;
   line-height: 20px;
   width: 506.19px;
-  cursor: pointerhttps://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=397&f=6059c9040fd468ee41988930ca76f210;
+  cursor: pointer;
 }
 
 .img-container3 {
@@ -455,6 +455,105 @@ main {
   color: #333;
   font: bold 15px "Roboto Condensed",sans-serif;
   letter-spacing: -1px;
+}
+
+.in-the-magazine-title {
+  margin: 20px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.img-container5 {
+  width: 290px;
+  height: 387px;
+  position: relative;
+}
+
+.magazine-cover {
+  width: 290px;
+  height: 387px;
+}
+
+.category4 {
+  font: bold 15px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  padding: 8px 10px;
+  background-color: rgba(255,255,255,0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.see-all-features {
+  font: bold 18px "Roboto Condensed",sans-serif;
+  background-color: #f4f5f6;
+  color: black;
+  letter-spacing: -1px;
+  padding: 8px 0;
+}
+
+.in-the-magazine-img-ctn {
+  overflow: hidden;
+  width: 290px;
+}
+
+.in-the-magazine-img {
+  position: relative;
+  right: 30%;
+  margin: 20px 0;
+}
+
+.category5 {
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+.horizons {
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  font: bold 16px "Roboto Condensed",sans-serif;
+  letter-spacing: -1px;
+  width: 90.45px;
+}
+
+.culture {
+  font: bold 16px "Roboto Condensed",sans-serif;
+  color: #f72210
+}
+
+.magazine-text {
+  font: bold 18px "Roboto Condensed",sans-serif;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.editors-img {
+  width: 290px;
+  height: 290px;
+}
+
+.text-editors {
+  color: #333;
+  font: 14px normal Arial,Helvetica,sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  width: 290px;
+  margin: 20px 0;
+}
+
+.text-editors a {
+  text-decoration: none;
+  color: #000;
+  font: bold 24px "Roboto Condensed",sans-serif;
+  line-height: 24px;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+}
+
+.img-container6 {
+  position: relative;
 }
 
 @media (min-width: 1200px) {
