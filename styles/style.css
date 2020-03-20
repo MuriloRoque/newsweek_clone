@@ -119,6 +119,8 @@ main {
   background-color: #fff;
 }
 
+/*First Column*/
+
 .first-col h1 {
   font: bold 23px "Roboto Condensed",sans-serif;
   color: #000;
@@ -136,7 +138,7 @@ main {
 }
 
 .first-col {
-  height: 3236px;
+  width: 372.59px;
 }
 
 .title {
@@ -170,18 +172,20 @@ main {
 }
 
 .img-container2 {
-  width: 506px;
+  width: 506.19px;
   height: 312px;
   margin-bottom: 10px;
   position: relative;
 }
 
+/*Second Column*/
+
 .second-col {
-  height: 2669px;
+  width: 536.19px;
 }
 
 .second-col img {
-  width: 506px;
+  width: 506.19px;
   height: 312px;
 }
 
@@ -190,7 +194,7 @@ main {
   color: #000;
   line-height: 24px;
   letter-spacing: -1.5px;
-  width: 506px;
+  width: 506.19px;
   cursor: pointer;
 }
 
@@ -198,7 +202,7 @@ main {
   font: 15px Arial,Helvetica,sans-serif;
   color: #000;
   line-height: 20px;
-  width: 506px;
+  width: 506.19px;
   cursor: pointerhttps://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=397&f=6059c9040fd468ee41988930ca76f210;
 }
 
@@ -268,6 +272,189 @@ main {
   font: 15px Arial,Helvetica,sans-serif;
   line-height: 20px;
   color: #333;
+}
+
+/*Third Column*/
+
+.third-col {
+  width: 371;
+}
+
+.opinion-flex {
+  width: 341.19px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.small-img {
+  width: 63px;
+  height: 63px;
+  margin-right: 20px;
+}
+
+.opinion-flex a {
+  width: 243px;
+  text-decoration: none;
+  font: 17px bold sans-serif;
+  line-height: 21px;
+  color: #000;
+  letter-spacing: -0.6px;
+}
+
+.opinion-author {
+  font: 14px "Roboto Condensed",sans-serif;
+  line-height: 21px;
+  color: #555;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.last-opinion {
+  border-bottom: none;
+}
+
+.the-debate {
+  margin-top: 20px;
+}
+
+.nigel {
+  border-top: 4px solid #f92859;
+}
+
+.amir {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate-flex {
+  width: 341.19px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 15px;
+}
+
+.debate-flex a {
+  width: 243px;
+  text-decoration: none;
+  font: 17px bold sans-serif;
+  line-height: 21px;
+  color: #000;
+  letter-spacing: -0.6px;
+  margin: 15px 0 0 15px;
+}
+
+.debate-author {
+  width: 341.19px;
+  font: 13px "Roboto Condensed",sans-serif;
+  line-height: 21px;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: -1px;
+  margin: 2px 0 10px 0;
+  padding-top: 20px;
+  border-top: 1px solid #d9d9d9;
+  font-weight: bold;
+}
+
+.debate-img {
+  position: absolute;
+  top: -8px;
+  right: 0;
+}
+
+.vs {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed",sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
+}
+
+.border-bottom-none {
+  border-bottom: none;
+}
+
+.latest-flex {
+  margin-bottom: 15px;
+}
+
+.img-container4 {
+  width: 341px;
+  height: 227px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.img-container4 img {
+  width: 341px;
+  height: 227px;
+}
+
+.category3 {
+  font: bold 15px "Roboto Condensed",sans-serif;
+  color: #3581f4;
+  padding: 5px 15px;
+  letter-spacing: -1px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.text-latest {
+  color: #333;
+  font: 14px normal Arial,Helvetica,sans-serif;
+  width: 341.19px;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.text-latest a {
+  text-decoration: none;
+  color: #000;
+  font: bold 24px "Roboto Condensed",sans-serif;
+  line-height: 24px;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+}
+
+.newsletter-img {
+  width: 29px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.newsletter {
+  width: 300px;
+  margin: 25px 20px 20px 10px;
+  padding: 20px;
+  background-color: #f4f5f6;
+}
+
+.sign-up {
+  font: bold 15px "Roboto Condensed",sans-serif;
+}
+
+.newsletter a {
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px "Roboto Condensed",sans-serif;
+  margin: 15px 0;
+  background-color: #666;
+  width: 100.81px;
+  height: 38px;
+}
+
+.updade-your {
+  color: #333;
+  font: bold 15px "Roboto Condensed",sans-serif;
+  letter-spacing: -1px;
 }
 
 @media (min-width: 1200px) {
