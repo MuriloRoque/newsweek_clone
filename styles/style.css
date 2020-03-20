@@ -119,15 +119,16 @@ main {
   background-color: #fff;
 }
 
-.main-section h1 {
+.first-col h1 {
   font: bold 23px "Roboto Condensed",sans-serif;
   color: #000;
   line-height: 24px;
   letter-spacing: -1.5px;
   width: 342.59px;
+  cursor: pointer;
 }
 
-.main-section p {
+.first-col p {
   font: 15px Arial,Helvetica,sans-serif;
   color: #000;
   line-height: 20px;
@@ -146,7 +147,7 @@ main {
   letter-spacing: -1.5px;
 }
 
-.img-container {
+.img-container1 {
   width: 342.59px;
   height: 228.67px;
   margin-bottom: 10px;
@@ -158,7 +159,7 @@ main {
   height: 228.67px;
 }
 
-.category {
+.category1 {
   font: bold 15px "Roboto Condensed",sans-serif;
   color: #f72210;
   padding: 8px 15px 9px;
@@ -166,6 +167,107 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.img-container2 {
+  width: 506px;
+  height: 312px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.second-col {
+  height: 2669px;
+}
+
+.second-col img {
+  width: 506px;
+  height: 312px;
+}
+
+.second-col h1 {
+  font: bold 21px "Roboto Condensed",sans-serif;
+  color: #000;
+  line-height: 24px;
+  letter-spacing: -1.5px;
+  width: 506px;
+  cursor: pointer;
+}
+
+.second-col p {
+  font: 15px Arial,Helvetica,sans-serif;
+  color: #000;
+  line-height: 20px;
+  width: 506px;
+  cursor: pointerhttps://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=397&f=6059c9040fd468ee41988930ca76f210;
+}
+
+.img-container3 {
+  width: 155px;
+  height: 155px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.img-container3 img {
+  width: 155px;
+  height: 155px;
+}
+
+.category2 {
+  font: bold 15px "Roboto Condensed",sans-serif;
+  color: #272727;
+  padding: 0 6px;
+  background-color: #c2d4d7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.culture-flex a {
+  width: 155px;
+  text-decoration: none;
+  color: #272727;
+  font: 20px "Lora",serif;
+  line-height: 24px;
+  letter-spacing: -1.5px;
+  margin-bottom: 5px;
+}
+
+.culture-flex p {
+  width: 155px;
+  font: 15px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #272727;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+
+.more-flex {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.more-flex img{
+  width: 95px;
+  height: 95px;
+  margin-right: 15px;
+}
+
+.more-flex a {
+  width: 360px;
+  text-decoration: none;
+  font: 17px bold sans-serif;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.more-flex p {
+  width: 360px;
+  font: 15px Arial,Helvetica,sans-serif;
+  line-height: 20px;
+  color: #333;
 }
 
 @media (min-width: 1200px) {
