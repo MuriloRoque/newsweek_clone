@@ -556,6 +556,43 @@ main {
   position: relative;
 }
 
+.featured-img {
+  width: 396.66px;
+  height: 264.77px;
+}
+
+.text-featured {
+  width: 396.66px;
+}
+
+.text-featured a {
+  text-decoration: none;
+  color: #000;
+  font: bold 24px "Roboto Condensed",sans-serif;
+  line-height: 24px;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+}
+
+.category6 {
+  width: 70px;
+  height: 52px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+}
+
+.category6 a {
+  text-decoration: none;
+  color: #e9212e;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1310px;
