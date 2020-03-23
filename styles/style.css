@@ -6,6 +6,7 @@ html {
 
 body {
   background-color: #f4f5f6;
+  width: 100%;
 }
 
 /*Header*/
@@ -26,6 +27,10 @@ body {
 .weather-loc {
   margin-bottom: 0.8rem;
   cursor: pointer;
+}
+
+.weather-loc-medium {
+  display: none;
 }
 
 .moon {
@@ -470,7 +475,7 @@ main {
 }
 
 .in-the-magazine-title {
-  margin: 2rem 0;
+  margin: 2rem -1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid #d9d9d9;
 }
@@ -615,8 +620,9 @@ main {
 .featured-title {
   font: bold 2.4rem "Roboto Condensed",sans-serif;
   color: #f72210;
-  margin-bottom: 1rem;
+  margin: 0 -1.5rem 1rem -1.5rem;
   cursor: pointer;
+  padding: 0 1.5rem;
 }
 
 .feature-small-img {
@@ -668,7 +674,7 @@ main {
 }
 
 .abs-img {
-  width: 20.5%;
+  width: 17.5rem;
   height: auto;
   position: absolute;
   top: 4.3rem;
@@ -730,8 +736,8 @@ main {
 }
 
 footer {
-  margin-top: 4rem;
-  padding-top: 4rem;
+  margin: 4rem -1.5rem 0 -1.5rem;
+  padding: 4rem 1.5rem 0 1.5rem;
   border-top: 0.4rem solid #f4f5f6;
 }
 
@@ -772,14 +778,147 @@ footer {
   padding-left: 0;
 }
 
-@media screen and (min-width: 992px) {
+.three-lines {
+  display: none;
+}
+
+@media (min-width: 992px) {
   .container{
     max-width: 131rem;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container{
     max-width: 131rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .subscribe-col {
+    width: 50%;
+  }
+  
+  .width-news-text {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container{
+    max-width: 99.2rem;
+  }
+  
+  .bottom-header{
+    display: none;
+  }
+  
+  .top-left-header {
+    display: none;
+  }
+  
+  .weather-loc-medium {
+    display: block;
+    margin-left: 2rem;
+  }
+  
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo-col {
+    padding-top: 1.6rem;
+  }
+  
+  .logo-col a {
+    width: 30%;
+  }
+  
+  .top-header {
+    height: 5rem;
+    padding: 0;
+  }
+  
+  .top-right-header {
+    line-height: 0;
+    height: 5rem;
+  }
+  
+  .three-lines {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .subscribe {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+    letter-spacing: -0.15rem;
+  }
+  
+  main {
+    margin-top: 2rem;
+  }
+  
+  .first-col {
+    width: 45%;
+    flex-basis: unset;
+  }
+  
+  .second-col {
+    width: 55%;
+    flex-basis: unset;
+  }
+  
+  .img-container4 {
+    max-width: 33rem;
+    margin: auto;
+  }
+  
+  .text-latest {
+    max-width: 33rem;
+    margin: auto;
+  }
+  
+  .newsletter {
+    margin: auto;
+  }
+  
+  .editors-col {
+    flex-basis: unset;
+    width: 50%;
+  }
+  
+  .d-none-medium {
+    display: none;
+  }
+  
+  .in-the-magazine {
+    border-bottom: none !important;
+  }
+  
+  .subscribe-col {
+    width: 100%;
+  }
+  
+  .news-col {
+    width: 100%;
+  }
+  
+  .news-ctn {
+    height: 41.5%;
+    margin-top: 3rem;
+  }
+  
+  .news-ctn img {
+    width: 20%;
+    height: 130%;
+  }
+  
+  .subs-news {
+    height: 58rem;
   }
 }
