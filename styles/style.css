@@ -173,7 +173,7 @@ main {
   font: bold 1.5rem "Roboto Condensed",sans-serif;
   color: #f72210;
   padding: 0.8rem 1.5rem 0.9rem;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -493,7 +493,7 @@ main {
   font: bold 1.5rem "Roboto Condensed",sans-serif;
   color: #f72210;
   padding: 0.8rem 1rem;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -536,7 +536,7 @@ main {
 
 .culture {
   font: bold 1.6rem "Roboto Condensed",sans-serif;
-  color: #f72210
+  color: #f72210;
 }
 
 .magazine-text {
@@ -808,7 +808,7 @@ footer {
   .subscribe-col {
     width: 50%;
   }
-  
+
   .width-news-text {
     width: 70%;
   }
@@ -818,49 +818,49 @@ footer {
   .container {
     max-width: 99.2rem;
   }
-  
+
   .bottom-header {
     display: none;
   }
-  
+
   .top-left-header {
     display: none;
   }
-  
+
   .weather-loc-medium {
     display: block;
     margin-left: 2rem;
   }
-  
+
   .logo {
     width: 100%;
     height: auto;
   }
-  
+
   .logo-col {
     padding-top: 1.6rem;
   }
-  
+
   .logo-col a {
     width: 30%;
   }
-  
+
   .top-header {
     height: 5rem;
     padding: 0;
   }
-  
+
   .top-right-header {
     line-height: 0;
     height: 5rem;
   }
-  
+
   .three-lines {
     display: block;
     width: 3rem;
     height: 3rem;
   }
-  
+
   .subscribe {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
@@ -868,66 +868,66 @@ footer {
     line-height: 2rem;
     letter-spacing: -0.15rem;
   }
-  
+
   main {
     margin-top: 2rem;
   }
-  
+
   .first-col {
     width: 45%;
     flex-basis: unset;
   }
-  
+
   .second-col {
     width: 55%;
     flex-basis: unset;
   }
-  
+
   .img-container4 {
     max-width: 33rem;
     margin: auto;
   }
-  
+
   .text-latest {
     max-width: 33rem;
     margin: auto;
   }
-  
+
   .newsletter {
     margin: auto;
   }
-  
+
   .editors-col {
     flex-basis: unset;
     width: 50%;
   }
-  
+
   .d-none-medium {
     display: none;
   }
-  
+
   .in-the-magazine {
     border-bottom: none !important;
   }
-  
+
   .subscribe-col {
     width: 100%;
   }
-  
+
   .news-col {
     width: 100%;
   }
-  
+
   .news-ctn {
     height: 41.5%;
     margin-top: 3rem;
   }
-  
+
   .news-ctn img {
     width: 20%;
     height: 130%;
   }
-  
+
   .subs-news {
     height: 58rem;
   }
@@ -937,96 +937,96 @@ footer {
   .d-none-small {
     display: block;
   }
-  
+
   .d-none-top {
     display: none !important;
   }
-  
+
   .first-col {
     width: 100%;
   }
-  
+
   .second-col {
     display: none;
   }
-  
+
   .third-col {
     width: 100%;
   }
-  
+
   .img-container4 {
     max-width: 100%;
   }
-  
+
   .text-latest {
     max-width: 100%;
   }
-  
+
   .d-show-small {
     display: block;
   }
-  
+
   .culture-flex {
     width: 100%;
   }
-  
+
   .in-the-magazine-col {
     width: 100%;
     flex-basis: unset;
   }
-  
+
   .d-none-medium {
     display: block;
   }
-  
+
   .abs-img {
     width: 12.5rem;
     left: 21rem;
   }
-  
+
   .subscribe-ctn {
     display: block !important;
     text-align: center;
   }
-  
+
   .subscribe-text-bottom {
     width: 100%;
     text-align: center;
   }
-  
+
   .news-ctn {
     display: block !important;
     margin: 0;
     text-align: center;
   }
-  
+
   .news-ctn img {
     width: 45rem;
     height: 16rem;
     content: url(/images/phone-small.png);
     margin: 2rem auto;
   }
-  
+
   .subs-news {
     height: 70rem;
   }
-  
+
   .top-footer {
     display: block !important;
   }
-  
+
   .small-no-flex {
     display: block !important;
   }
-  
+
   .bottom-logo {
     width: 30%;
   }
-  
+
   .copyright {
     margin-left: 0;
   }
-  
+
   .icons {
     justify-content: start !important;
     margin-top: 2rem;
