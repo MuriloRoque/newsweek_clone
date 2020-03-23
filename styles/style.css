@@ -782,6 +782,14 @@ footer {
   display: none;
 }
 
+.d-none-small {
+  display: none;
+}
+
+.d-show-small {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .container{
     max-width: 131rem;
@@ -920,5 +928,105 @@ footer {
   
   .subs-news {
     height: 58rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-none-small {
+    display: block;
+  }
+  
+  .d-none-top {
+    display: none !important;
+  }
+  
+  .first-col {
+    width: 100%;
+  }
+  
+  .second-col {
+    display: none;
+  }
+  
+  .third-col {
+    width: 100%;
+  }
+  
+  .img-container4 {
+    max-width: 100%;
+  }
+  
+  .text-latest {
+    max-width: 100%;
+  }
+  
+  .d-show-small {
+    display: block;
+  }
+  
+  .culture-flex {
+    width: 100%;
+  }
+  
+  .in-the-magazine-col {
+    width: 100%;
+    flex-basis: unset;
+  }
+  
+  .d-none-medium {
+    display: block;
+  }
+  
+  .abs-img {
+    width: 12.5rem;
+    left: 21rem;
+  }
+  
+  .subscribe-ctn {
+    display: block !important;
+    text-align: center;
+  }
+  
+  .subscribe-text-bottom {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news-ctn {
+    display: block !important;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .news-ctn img {
+    width: 45rem;
+    height: 16rem;
+    content: url(/images/phone-small.png);
+    margin: 2rem auto;
+  }
+  
+  .subs-news {
+    height: 70rem;
+  }
+  
+  .top-footer {
+    display: block !important;
+  }
+  
+  .small-no-flex {
+    display: block !important;
+  }
+  
+  .bottom-logo {
+    width: 30%;
+  }
+  
+  .copyright {
+    margin-left: 0;
+  }
+  
+  .icons {
+    justify-content: start !important;
+    margin-top: 2rem;
   }
 }
