@@ -130,7 +130,6 @@ main {
 
 .first-col {
   width: 30%;
-  position: sticky;
   top: 0;
 }
 
@@ -173,7 +172,6 @@ main {
 
 .second-col {
   width: 40%;
-  position: sticky;
   top: 0;
 }
 
@@ -272,7 +270,6 @@ main {
 
 .third-col {
   width: 30%;
-  position: sticky;
   top: 0;
 }
 
@@ -855,8 +852,7 @@ footer {
   }
 
   .subscribe {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    padding: 0.1rem 0.1rem;
     margin-right: 1rem;
     line-height: 2rem;
     letter-spacing: -0.15rem;
@@ -927,6 +923,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 10.9rem;
+    height: auto;
+  }
+  
+  .moon {
+    margin-left: 4rem;
+  }
+  
   .d-none-small {
     display: block;
   }
@@ -1023,5 +1028,51 @@ footer {
   .icons {
     justify-content: start !important;
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 10.9rem;
+    height: auto;
+  }
+  
+  .subscribe {
+    font-size: 1.3rem;
+  }
+  
+  .sign-in {
+    font-size: 1.3rem;
+  }
+  
+  .top-right-header {
+    flex-basis: unset;
+    width: 49%;
+  }
+  
+  .logo-col {
+    flex-basis: unset;
+    width: 51%;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 10.9rem;
+    height: auto;
+  }
+  
+  .top-right-header {
+    flex-basis: unset;
+    width: 75%;
+  }
+  
+  .logo-col {
+    flex-basis: unset;
+    width: 25%;
+  }
+  
+  .moon {
+    display: none;
   }
 }
