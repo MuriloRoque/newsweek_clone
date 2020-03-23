@@ -84,6 +84,10 @@ body {
   padding: 0;
 }
 
+.nav-links li {
+  list-style-type: none;
+}
+
 .bottom-header a {
   color: #000;
   font: bold 1.7rem "Roboto Condensed",sans-serif;
@@ -149,6 +153,8 @@ main {
 
 .first-col {
   width: 30%;
+  position: sticky;
+  top: 0;
 }
 
 .title {
@@ -192,6 +198,8 @@ main {
 
 .second-col {
   width: 40%;
+  position: sticky;
+  top: 0;
 }
 
 .second-col img {
@@ -291,6 +299,8 @@ main {
 
 .third-col {
   width: 30%;
+  position: sticky;
+  top: 0;
 }
 
 .opinion-flex {
@@ -776,6 +786,10 @@ footer {
 .bottom-footer ul {
   margin-top: 1rem;
   padding-left: 0;
+}
+
+.footer-links li {
+  list-style-type: none;
 }
 
 .three-lines {
