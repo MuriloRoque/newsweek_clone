@@ -238,7 +238,7 @@ main {
 
 .culture-flex p {
   width: 100%;
-  font: 1.5rem "Helvetica Neue", "Helvetica", Arial,sans-serif;
+  font: 1.5rem "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #272727;
   opacity: 0.5;
   margin-bottom: 4rem;
@@ -667,13 +667,6 @@ main {
   margin-left: 9rem;
 }
 
-.subscribe-text-bottom h3 {
-  font: bold 2.2rem "Roboto Condensed", sans-serif;
-  margin-bottom: 1rem;
-  color: #000;
-  letter-spacing: -0.1rem;
-}
-
 .subscribe-text-bottom p {
   font: 300 1.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2.5rem;
@@ -711,6 +704,7 @@ main {
   font-family: bold 2.4rem "Roboto Condensed", sans-serif;
   margin-bottom: 1rem;
   color: #000;
+  letter-spacing: -0.1rem;
 }
 
 .width-news-text {
