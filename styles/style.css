@@ -9,7 +9,7 @@ body {
 
 .main-text {
   color: #fff;
-  font: bold 15px "Roboto Condensed",sans-serif;
+  font: bold 15px "Roboto Condensed", sans-serif;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .bottom-header a {
   color: #000;
-  font: bold 1.7rem "Roboto Condensed",sans-serif;
+  font: bold 1.7rem "Roboto Condensed", sans-serif;
   border-right: 0.1rem solid #d9d9d9;
   padding: 0 1.5rem 0 0.2rem;
 }
@@ -128,7 +128,7 @@ main {
 }
 
 .first-col h1 {
-  font: bold 2.3rem "Roboto Condensed",sans-serif;
+  font: bold 2.3rem "Roboto Condensed", sans-serif;
   color: #000;
   line-height: 2.4rem;
   letter-spacing: -0.15rem;
@@ -137,7 +137,7 @@ main {
 }
 
 .first-col p {
-  font: 1.5rem Arial,Helvetica,sans-serif;
+  font: 1.5rem Arial,Helvetica, sans-serif;
   color: #000;
   line-height: 2rem;
   width: 100%;
@@ -153,7 +153,7 @@ main {
   color: #030303;
   opacity: 0.4;
   padding-bottom: 1.1rem;
-  font: 1.5rem "Roboto Condensed",sans-serif;
+  font: 1.5rem "Roboto Condensed", sans-serif;
   letter-spacing: -0.15rem;
 }
 
@@ -170,10 +170,10 @@ main {
 }
 
 .category1 {
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
   color: #f72210;
   padding: 0.8rem 1.5rem 0.9rem;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -198,7 +198,7 @@ main {
 }
 
 .second-col h1 {
-  font: bold 2.1rem "Roboto Condensed",sans-serif;
+  font: bold 2.1rem "Roboto Condensed", sans-serif;
   color: #000;
   line-height: 2.4rem;
   letter-spacing: -0.15rem;
@@ -207,7 +207,7 @@ main {
 }
 
 .second-col p {
-  font: 1.5rem Arial,Helvetica,sans-serif;
+  font: 1.5rem Arial,Helvetica, sans-serif;
   color: #000;
   line-height: 2rem;
   width: 100%;
@@ -227,7 +227,7 @@ main {
 }
 
 .category2 {
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
   color: #272727;
   padding: 0 0.6rem;
   background-color: #c2d4d7;
@@ -253,7 +253,7 @@ main {
 
 .culture-flex p {
   width: 100%;
-  font: 1.5rem "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font: 1.5rem "Helvetica Neue","Helvetica", Arial,sans-serif;
   color: #272727;
   opacity: 0.5;
   margin-bottom: 4rem;
@@ -280,7 +280,7 @@ main {
 }
 
 .more-flex p {
-  font: 1.5rem Arial,Helvetica,sans-serif;
+  font: 1.5rem Arial,Helvetica, sans-serif;
   line-height: 2rem;
   color: #333;
 }
@@ -314,7 +314,7 @@ main {
 }
 
 .opinion-author {
-  font: 1.4rem "Roboto Condensed",sans-serif;
+  font: 1.4rem "Roboto Condensed", sans-serif;
   line-height: 2.1rem;
   color: #555;
   margin-top: 0.4rem;
@@ -357,7 +357,7 @@ main {
 
 .debate-author {
   width: 100%;
-  font: 1.3rem "Roboto Condensed",sans-serif;
+  font: 1.3rem "Roboto Condensed", sans-serif;
   line-height: 2.1rem;
   color: #555;
   margin-top: 0.4rem;
@@ -380,7 +380,7 @@ main {
   background-color: #000;
   color: #d6d6d6;
   border-radius: 50%;
-  font: bold 1.4rem/4rem "Roboto Condensed",sans-serif;
+  font: bold 1.4rem/4rem "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 1.4rem auto 1.8rem;
 }
@@ -406,7 +406,7 @@ main {
 }
 
 .category3 {
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
   color: #3581f4;
   padding: 0.5rem 1.5rem;
   letter-spacing: -0.1rem;
@@ -418,7 +418,7 @@ main {
 
 .text-latest {
   color: #333;
-  font: 1.4rem normal Arial,Helvetica,sans-serif;
+  font: 1.4rem normal Arial,Helvetica, sans-serif;
   width: 100%;
   padding: 2rem;
   border: 0.1rem solid #e6e6e6;
@@ -429,7 +429,7 @@ main {
 .text-latest a {
   text-decoration: none;
   color: #000;
-  font: bold 2.4rem "Roboto Condensed",sans-serif;
+  font: bold 2.4rem "Roboto Condensed", sans-serif;
   line-height: 2.4rem;
   margin-bottom: 0.5rem;
   letter-spacing: -0.1rem;
@@ -449,13 +449,13 @@ main {
 }
 
 .sign-up {
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
 }
 
 .newsletter a {
   padding: 1rem 1rem 1rem 1.2rem;
   color: white;
-  font: bold 1.8rem "Roboto Condensed",sans-serif;
+  font: bold 1.8rem "Roboto Condensed", sans-serif;
   margin: 1.5rem 0;
   background-color: #666;
   width: 10.081rem;
@@ -464,7 +464,7 @@ main {
 
 .updade-your {
   color: #333;
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
   letter-spacing: -0.1rem;
 }
 
@@ -490,7 +490,7 @@ main {
 }
 
 .category4 {
-  font: bold 1.5rem "Roboto Condensed",sans-serif;
+  font: bold 1.5rem "Roboto Condensed", sans-serif;
   color: #f72210;
   padding: 0.8rem 1rem;
   background-color: rgba(255, 255, 255, 0.9);
@@ -500,7 +500,7 @@ main {
 }
 
 .see-all-features {
-  font: bold 1.8rem "Roboto Condensed",sans-serif;
+  font: bold 1.8rem "Roboto Condensed", sans-serif;
   background-color: #f4f5f6;
   color: black;
   letter-spacing: -0.1rem;
@@ -529,18 +529,18 @@ main {
   background-color: #f72210;
   color: white;
   margin-right: 0.7rem;
-  font: bold 1.6rem "Roboto Condensed",sans-serif;
+  font: bold 1.6rem "Roboto Condensed", sans-serif;
   letter-spacing: -0.1rem;
   width: 9.045rem;
 }
 
 .culture {
-  font: bold 1.6rem "Roboto Condensed",sans-serif;
+  font: bold 1.6rem "Roboto Condensed", sans-serif;
   color: #f72210;
 }
 
 .magazine-text {
-  font: bold 1.8rem "Roboto Condensed",sans-serif;
+  font: bold 1.8rem "Roboto Condensed", sans-serif;
   color: #000;
   letter-spacing: -0.1rem;
 }
@@ -552,7 +552,7 @@ main {
 
 .text-editors {
   color: #333;
-  font: 1.4rem normal Arial,Helvetica,sans-serif;
+  font: 1.4rem normal Arial,Helvetica, sans-serif;
   line-height: 2rem;
   letter-spacing: 0.05rem;
   width: 100%;
@@ -562,7 +562,7 @@ main {
 .text-editors a {
   text-decoration: none;
   color: #000;
-  font: bold 2.4rem "Roboto Condensed",sans-serif;
+  font: bold 2.4rem "Roboto Condensed", sans-serif;
   line-height: 2.4rem;
   margin-bottom: 0.5rem;
   letter-spacing: -0.1rem;
@@ -585,7 +585,7 @@ main {
 .text-featured a {
   text-decoration: none;
   color: #000;
-  font: bold 2.4rem "Roboto Condensed",sans-serif;
+  font: bold 2.4rem "Roboto Condensed", sans-serif;
   line-height: 2.4rem;
   margin: 2rem 0 0.5rem 0;
   letter-spacing: -0.1rem;
@@ -616,7 +616,7 @@ main {
 }
 
 .featured-title {
-  font: bold 2.4rem "Roboto Condensed",sans-serif;
+  font: bold 2.4rem "Roboto Condensed", sans-serif;
   color: #f72210;
   margin: 0 -1.5rem 1rem -1.5rem;
   cursor: pointer;
@@ -635,7 +635,7 @@ main {
 
 .feature-ctn a {
   text-decoration: none;
-  font: bold 1.6rem "Roboto Condensed",sans-serif;
+  font: bold 1.6rem "Roboto Condensed", sans-serif;
   color: #000;
   letter-spacing: -0.1rem;
   margin: 0 1rem;
@@ -648,7 +648,7 @@ main {
 }
 
 .subscribe-bottom {
-  font: bold 1.6rem "Roboto Condensed",sans-serif;
+  font: bold 1.6rem "Roboto Condensed", sans-serif;
   padding-bottom: 1.1rem;
   color: #f72210;
   letter-spacing: -0.1rem;
@@ -684,14 +684,14 @@ main {
 }
 
 .subscribe-text-bottom h3 {
-  font: bold 2.2rem "Roboto Condensed",sans-serif;
+  font: bold 2.2rem "Roboto Condensed", sans-serif;
   margin-bottom: 1rem;
   color: #000;
   letter-spacing: -0.1rem;
 }
 
 .subscribe-text-bottom p {
-  font: 300 1.5rem "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 300 1.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2.5rem;
   line-height: 2.1rem;
 }
@@ -700,7 +700,7 @@ main {
   background-color: #f72210;
   padding: 1rem 1rem 1rem 1.2rem;
   color: white;
-  font: bold 1.8rem "Roboto Condensed",sans-serif;
+  font: bold 1.8rem "Roboto Condensed", sans-serif;
   letter-spacing: -0.1rem;
 }
 
@@ -724,7 +724,7 @@ main {
 }
 
 .subscribe-text-bottom h3 {
-  font-family: bold 2.4rem "Roboto Condensed",sans-serif;
+  font-family: bold 2.4rem "Roboto Condensed", sans-serif;
   margin-bottom: 1rem;
   color: #000;
 }
@@ -751,7 +751,7 @@ footer {
 }
 
 .copyright {
-  font: 1.2rem Arial,Helvetica,sans-serif;
+  font: 1.2rem Arial,Helvetica, sans-serif;
   text-transform: uppercase;
   color: #666;
   margin: 2rem 0 0 1rem;
