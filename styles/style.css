@@ -927,11 +927,11 @@ footer {
     width: 10.9rem;
     height: auto;
   }
-  
+
   .moon {
     margin-left: 4rem;
   }
-  
+
   .d-none-small {
     display: block;
   }
@@ -1036,20 +1036,20 @@ footer {
     width: 10.9rem;
     height: auto;
   }
-  
+
   .subscribe {
     font-size: 1.3rem;
   }
-  
+
   .sign-in {
     font-size: 1.3rem;
   }
-  
+
   .top-right-header {
     flex-basis: unset;
     width: 49%;
   }
-  
+
   .logo-col {
     flex-basis: unset;
     width: 51%;
@@ -1061,17 +1061,17 @@ footer {
     width: 10.9rem;
     height: auto;
   }
-  
+
   .top-right-header {
     flex-basis: unset;
     width: 75%;
   }
-  
+
   .logo-col {
     flex-basis: unset;
     width: 25%;
   }
-  
+
   .moon {
     display: none;
   }
