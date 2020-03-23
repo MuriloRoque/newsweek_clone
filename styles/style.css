@@ -50,22 +50,12 @@ body {
   height: 9.2rem;
 }
 
-.sign-in:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
 .subscribe {
   color: #f72210;
   background-color: #fff;
   padding: 0.4rem 1rem;
   font-size: 1.7rem;
   margin-left: 0.6rem;
-}
-
-.subscribe:hover {
-  text-decoration: none;
-  color: #f72210;
 }
 
 .bottom-header {
@@ -89,11 +79,6 @@ body {
   font: bold 1.7rem "Roboto Condensed", sans-serif;
   border-right: 0.1rem solid #d9d9d9;
   padding: 0 1.5rem 0 0.2rem;
-}
-
-.bottom-header a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .search-input {
@@ -137,7 +122,7 @@ main {
 }
 
 .first-col p {
-  font: 1.5rem Arial,Helvetica, sans-serif;
+  font: 1.5rem Arial, Helvetica, sans-serif;
   color: #000;
   line-height: 2rem;
   width: 100%;
@@ -207,7 +192,7 @@ main {
 }
 
 .second-col p {
-  font: 1.5rem Arial,Helvetica, sans-serif;
+  font: 1.5rem Arial, Helvetica, sans-serif;
   color: #000;
   line-height: 2rem;
   width: 100%;
@@ -245,7 +230,7 @@ main {
   width: 100%;
   text-decoration: none;
   color: #272727;
-  font: 2rem "Lora",serif;
+  font: 2rem "Lora", serif;
   line-height: 2.4rem;
   letter-spacing: -0.15rem;
   margin-bottom: 0.5rem;
@@ -253,7 +238,7 @@ main {
 
 .culture-flex p {
   width: 100%;
-  font: 1.5rem "Helvetica Neue","Helvetica", Arial,sans-serif;
+  font: 1.5rem "Helvetica Neue", "Helvetica", Arial,sans-serif;
   color: #272727;
   opacity: 0.5;
   margin-bottom: 4rem;
@@ -280,7 +265,7 @@ main {
 }
 
 .more-flex p {
-  font: 1.5rem Arial,Helvetica, sans-serif;
+  font: 1.5rem Arial, Helvetica, sans-serif;
   line-height: 2rem;
   color: #333;
 }
@@ -360,7 +345,6 @@ main {
   font: 1.3rem "Roboto Condensed", sans-serif;
   line-height: 2.1rem;
   color: #555;
-  margin-top: 0.4rem;
   letter-spacing: -0.1rem;
   margin: 0.2rem 0 1rem 0;
   padding-top: 2rem;
@@ -418,7 +402,7 @@ main {
 
 .text-latest {
   color: #333;
-  font: 1.4rem normal Arial,Helvetica, sans-serif;
+  font: 1.4rem normal Arial, Helvetica, sans-serif;
   width: 100%;
   padding: 2rem;
   border: 0.1rem solid #e6e6e6;
@@ -552,7 +536,7 @@ main {
 
 .text-editors {
   color: #333;
-  font: 1.4rem normal Arial,Helvetica, sans-serif;
+  font: 1.4rem normal Arial, Helvetica, sans-serif;
   line-height: 2rem;
   letter-spacing: 0.05rem;
   width: 100%;
@@ -751,7 +735,7 @@ footer {
 }
 
 .copyright {
-  font: 1.2rem Arial,Helvetica, sans-serif;
+  font: 1.2rem Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #666;
   margin: 2rem 0 0 1rem;
@@ -790,6 +774,21 @@ footer {
 
 .d-show-small {
   display: none;
+}
+
+.sign-in:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.subscribe:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.bottom-header a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
