@@ -1,7 +1,7 @@
 # Newsweek Clone Page
 This is a clone of the Newsweek Page.
 
-<!-- ![screenshot](images/apple.png) -->
+[screenshot](images/screenshot.png)
 
 # What it does
 This page shows a copy of a Newsweek Page.
