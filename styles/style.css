@@ -591,7 +591,7 @@ main {
 footer {
   margin: 4rem -1.5rem 0 -1.5rem;
   padding: 4rem 1.5rem 0 1.5rem;
-  border-top: 0.4rem solid #f4f5f6;
+  border-top: 1.4rem solid #f4f5f6;
 }
 
 .top-footer {
@@ -612,7 +612,11 @@ footer {
 }
 
 .icons {
-  width: 13.12%;
+  width: 23.12%;
+}
+
+.icons a {
+  margin-left: 1.5rem;
 }
 
 .bottom-footer a {
@@ -681,7 +685,7 @@ footer {
 
 @media (max-width: 992px) {
   .news-col {
-    margin-top: 2rem !important;
+    margin-top: 2rem;
     width: 100% !important;
   }
 
@@ -690,56 +694,56 @@ footer {
   }
 
   .bottom-header {
-    display: none !important;
+    display: none;
   }
 
   .top-left-header {
-    display: none !important;
+    display: none;
   }
 
   .weather-loc-medium {
-    display: block !important;
-    margin-left: 2rem !important;
+    display: block;
+    margin-left: 2rem;
   }
 
   .logo {
     width: 100%;
-    height: auto !important;
+    height: auto;
   }
 
   .logo-col {
-    padding-top: 1.6rem !important;
+    padding-top: 1.6rem;
   }
 
   .logo-col a {
-    width: 30% !important;
+    width: 30%;
   }
 
   .top-header {
-    height: 5rem !important;
-    padding: 0 !important;
+    height: 5rem;
+    padding: 0;
   }
 
   .top-right-header {
-    line-height: 0 !important;
-    height: 5rem !important;
+    line-height: 0;
+    height: 5rem;
   }
 
   .three-lines {
-    display: block !important;
-    width: 3rem !important;
-    height: 3rem !important;
+    display: block;
+    width: 3rem;
+    height: 3rem;
   }
 
   .subscribe {
-    padding: 0.1rem 0.1rem !important;
-    margin-right: 1rem !important;
-    line-height: 2rem !important;
-    letter-spacing: -0.15rem !important;
+    padding: 0.1rem 0.1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+    letter-spacing: -0.15rem;
   }
 
   main {
-    padding-top: 2rem !important;
+    padding-top: 2rem;
   }
 
   .first-col {
@@ -752,16 +756,16 @@ footer {
 
   .img-container4 {
     max-width: 33rem !important;
-    margin: auto !important;
+    margin: auto;
   }
 
   .text-latest {
     max-width: 33rem !important;
-    margin: auto !important;
+    margin: auto;
   }
 
   .newsletter {
-    margin: auto !important;
+    margin: auto;
   }
 
   .editors-col {
@@ -770,11 +774,11 @@ footer {
   }
 
   .d-none-medium {
-    display: none !important;
+    display: none;
   }
 
   .in-the-magazine {
-    border-bottom: none !important;
+    border-bottom: none;
   }
 
   .subscribe-col {
@@ -782,32 +786,32 @@ footer {
   }
 
   .news-ctn {
-    height: 41.5% !important;
-    margin-top: 3rem !important;
+    height: 41.5%;
+    margin-top: 3rem;
   }
 
   .news-ctn img {
     width: 20% !important;
-    height: 130% !important;
+    height: 130%;
   }
 
   .subs-news {
-    height: 58rem !important;
+    height: 58rem;
   }
 }
 
 @media (max-width: 768px) {
   footer {
-    margin-top: 25rem;
+    margin-top: 33rem;
   }
 
   .logo {
-    width: 10.9rem !important;
-    height: auto !important;
+    width: 10.9rem;
+    height: auto;
   }
 
   .moon {
-    margin-left: 4rem !important;
+    margin-left: 4rem;
   }
 
   .d-none-small {
@@ -839,7 +843,7 @@ footer {
   }
 
   .d-show-small {
-    display: block !important;
+    display: block;
   }
 
   .culture-flex {
@@ -860,24 +864,24 @@ footer {
   }
 
   .abs-img {
-    left: 43% !important;
+    left: 43%;
   }
 
   .subscribe-ctn {
     display: block !important;
-    text-align: center !important;
+    text-align: center;
   }
 
   .subscribe-text-bottom {
     width: 100% !important;
-    text-align: center !important;
-    margin-left: 0 !important;
+    text-align: center;
+    margin-left: 0;
   }
 
   .news-ctn {
     display: block !important;
-    margin: 0 !important;
-    text-align: center !important;
+    margin: 0;
+    text-align: center;
     background: url(/images/phone-small.png) no-repeat;
     background-size: cover;
   }
@@ -885,8 +889,8 @@ footer {
   .news-ctn img {
     visibility: hidden;
     width: 100% !important;
-    height: 16rem !important;
-    content: url(/images/phone-small.png) !important;
+    height: 16rem;
+    content: url(/images/phone-small.png);
   }
 
   .top-footer {
@@ -902,35 +906,45 @@ footer {
   }
 
   .copyright {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
 
   .icons {
     justify-content: start !important;
-    margin-top: 2rem !important;
+    margin-top: 2rem;
+  }
+
+  .icons a {
+    margin-right: 1.5rem;
+    margin-left: 0;
   }
 
   .flexy {
     display: flex !important;
   }
+
+  .in-the-magazine-img {
+    width: 100%;
+    right: 0;
+  }
 }
 
 @media (max-width: 480px) {
   .logo {
-    width: 10.9rem !important;
-    height: auto !important;
+    width: 10.9rem;
+    height: auto;
   }
 
   .subscribe {
-    padding: 0.1rem 0.2rem !important;
-    margin-right: 1rem !important;
-    line-height: 2rem !important;
-    letter-spacing: -0.15rem !important;
+    padding: 0.1rem 0.2rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+    letter-spacing: -0.15rem;
     font-size: 1.2rem;
   }
 
   .sign-in {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
   }
 
   .top-right-header {
@@ -961,8 +975,8 @@ footer {
   }
 
   .logo {
-    width: 10.9rem !important;
-    height: auto !important;
+    width: 10.9rem;
+    height: auto;
   }
 
   .top-right-header {
