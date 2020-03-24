@@ -634,7 +634,10 @@ footer {
   padding-left: 0;
 }
 
-.d-none-small, .d-show-small, .three-lines, .weather-loc-medium {
+.d-none-small,
+.d-show-small,
+.three-lines,
+.weather-loc-medium {
   display: none;
 }
 
