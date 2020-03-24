@@ -682,7 +682,9 @@ footer {
 @media (max-width: 992px) {
   .news-col {
     margin-top: 2rem !important;
+    width: 100% !important;
   }
+
   .container {
     max-width: 99.2rem !important;
   }
@@ -776,10 +778,6 @@ footer {
   }
 
   .subscribe-col {
-    width: 100% !important;
-  }
-
-  .news-col {
     width: 100% !important;
   }
 
@@ -911,7 +909,7 @@ footer {
     justify-content: start !important;
     margin-top: 2rem !important;
   }
-  
+
   .flexy {
     display: flex !important;
   }
