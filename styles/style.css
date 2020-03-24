@@ -99,7 +99,7 @@ main {
   background-color: #fff;
 }
 
-.first-col h1 {
+.first-col h2 {
   font: bold 2.3rem "Roboto Condensed", sans-serif;
   color: #000;
   line-height: 2.4rem;
@@ -148,7 +148,7 @@ main {
   top: 0;
 }
 
-.second-col h1 {
+.second-col h2 {
   font: bold 2.1rem "Roboto Condensed", sans-serif;
   color: #000;
   line-height: 2.4rem;
